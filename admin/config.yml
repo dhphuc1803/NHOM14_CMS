@@ -1,6 +1,7 @@
 backend:
-  name: git-gateway
-  branch: main
+  name: github
+  repo: your-username/your-repo-name  # 🔁 Thay bằng tên tài khoản và repo GitHub của bạn
+  branch: main                        # ✅ Nhánh bạn muốn Netlify CMS sử dụng
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
@@ -15,4 +16,3 @@ collections:
       - { label: "Tiêu đề", name: "title", widget: "string" }
       - { label: "Ngày", name: "date", widget: "datetime" }
       - { label: "Nội dung", name: "body", widget: "markdown" }
-
