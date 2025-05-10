@@ -1,14 +1,18 @@
 backend:
-  name: github
-  repo: dhphuc1803/NHOM14_CMS
+  name: git-gateway
+  branch: main
+
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
+
 collections:
   - name: "posts"
-    label: "Posts"
+    label: "Bài viết"
     folder: "content/posts"
     create: true
+    slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Tiêu đề", name: "title", widget: "string" }
+      - { label: "Ngày", name: "date", widget: "datetime" }
+      - { label: "Nội dung", name: "body", widget: "markdown" }
+
