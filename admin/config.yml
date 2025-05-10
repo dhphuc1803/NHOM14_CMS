@@ -1,0 +1,14 @@
+backend:
+  name: github
+  repo: dhphuc1803/NHOM14_CMS
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "content/posts"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Date", name: "date", widget: "datetime" }
