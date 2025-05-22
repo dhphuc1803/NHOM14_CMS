@@ -4,11 +4,37 @@ collections:
     folder: "content/posts"
     create: true
     fields:
-      - { label: "Tiêu đề", name: "title", widget: "string" }
-      - { label: "Ngày đăng", name: "date", widget: "datetime" }
-      - { label: "Đoạn trích", name: "excerpt", widget: "text" }
-      - { label: "Hình ảnh", name: "image", widget: "image" }
-      - { label: "Tiêu đề SEO", name: "meta_title", widget: "string", required: false }
-      - { label: "Mô tả SEO", name: "meta_description", widget: "text", required: false }
-      - { label: "Từ khóa SEO", name: "meta_keywords", widget: "text", required: false }
-      - { label: "Nội dung", name: "body", widget: "markdown" }
+      - label: "Tiêu đề"
+        name: "title"
+        widget: "string"
+
+      - label: "Ngày đăng"
+        name: "date"
+        widget: "datetime"
+
+      - label: "Đoạn trích"
+        name: "excerpt"
+        widget: "text"
+
+      - label: "Hình ảnh"
+        name: "image"
+        widget: "image"
+
+      - label: "Tiêu đề SEO"
+        name: "meta_title"
+        widget: "string"
+        required: false
+
+      - label: "Mô tả SEO"
+        name: "meta_description"
+        widget: "text"
+        required: false
+
+      - label: "Từ khóa SEO"
+        name: "meta_keywords"
+        widget: "text"
+        required: false
+
+      - label: "Nội dung"
+        name: "body"
+        widget: "markdown"
