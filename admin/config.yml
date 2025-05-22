@@ -5,9 +5,6 @@ backend:
 media_folder: "static/img"
 public_folder: "/img"
 
-media_library:
-  name: default
-
 collections:
   - name: "posts"
     label: "Bài viết"
