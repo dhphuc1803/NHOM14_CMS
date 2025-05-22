@@ -1,3 +1,15 @@
+backend:
+  name: git-gateway
+  branch: main # hoặc 'master', tùy theo nhánh chính của bạn
+
+media_folder: "static/img"
+public_folder: "/img"
+
+media_library:
+  name: uploadcare
+  config:
+    publicKey: demo
+
 collections:
   - name: "posts"
     label: "Bài viết"
