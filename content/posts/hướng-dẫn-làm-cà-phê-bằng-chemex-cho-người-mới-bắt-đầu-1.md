@@ -4,6 +4,10 @@ date: 2025-05-22T17:29:55.588Z
 excerpt: Làm cà phê bằng Chemex có thể trông phức tạp, nhưng khi quen với quy
   trình, nó trở thành một nghi thức thư giãn đáng để thử mỗi ngày.
 image: /static/images/uploads/hinh-tach-dung-hat-ca-phe.jpg
+meta_title: Hướng dẫn làm cà phê Chemex cho người mới
+meta_description: Tìm hiểu cách làm cà phê bằng Chemex đơn giản, hiệu quả cho
+  người mới bắt đầu. Hướng dẫn chi tiết từng bước!
+meta_keywords: cà phê Chemex, pha cà phê, hướng dẫn làm cà phê
 ---
 Làm cà phê bằng Chemex có thể trông phức tạp, nhưng khi quen với quy trình, nó trở thành một nghi thức thư giãn đáng để thử mỗi ngày.
 
