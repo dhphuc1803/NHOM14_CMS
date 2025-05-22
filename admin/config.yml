@@ -1,26 +1,44 @@
 backend:
   name: git-gateway
-  branch: main # hoặc 'master', tùy theo nhánh chính của bạn
+  branch: main
 
 media_folder: "static/img"
 public_folder: "/img"
 
 media_library:
-  name: uploadcare
-  config:
-    publicKey: demo
+  name: default
 
 collections:
   - name: "posts"
     label: "Bài viết"
     folder: "content/posts"
     create: true
+    slug: "{{slug}}"
     fields:
-      - { label: "Tiêu đề", name: "title", widget: "string" }
-      - { label: "Ngày đăng", name: "date", widget: "datetime" }
-      - { label: "Đoạn trích", name: "excerpt", widget: "text" }
-      - { label: "Hình ảnh", name: "image", widget: "image" }
-      - { label: "Tiêu đề SEO", name: "meta_title", widget: "string", required: false }
-      - { label: "Mô tả SEO", name: "meta_description", widget: "text", required: false }
-      - { label: "Từ khóa SEO", name: "meta_keywords", widget: "text", required: false }
-      - { label: "Nội dung", name: "body", widget: "markdown" }
+      - label: "Tiêu đề"
+        name: "title"
+        widget: "string"
+      - label: "Ngày đăng"
+        name: "date"
+        widget: "datetime"
+      - label: "Đoạn trích"
+        name: "excerpt"
+        widget: "text"
+      - label: "Hình ảnh"
+        name: "image"
+        widget: "image"
+      - label: "Tiêu đề SEO"
+        name: "meta_title"
+        widget: "string"
+        required: false
+      - label: "Mô tả SEO"
+        name: "meta_description"
+        widget: "text"
+        required: false
+      - label: "Từ khóa SEO"
+        name: "meta_keywords"
+        widget: "text"
+        required: false
+      - label: "Nội dung"
+        name: "body"
+        widget: "markdown"
