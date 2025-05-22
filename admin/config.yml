@@ -1,3 +1,15 @@
+backend:
+  name: git-gateway
+  branch: main # Thay bằng branch của bạn, ví dụ: main, master
+
+media_folder: "static/images/uploads" # Thư mục lưu trữ hình ảnh
+media_library:
+  name: cloudinary # Có thể thay bằng "local" hoặc "cloudinary", tùy dịch vụ bạn dùng
+  config:
+    cloudname: YOUR_CLOUDINARY_CLOUDNAME # Thay bằng cloudname của bạn nếu dùng Cloudinary
+    api_key: YOUR_CLOUDINARY_API_KEY # Thay bằng API key của bạn nếu dùng Cloudinary
+    # Nếu dùng local media library, bỏ qua cloudname và api_key
+
 collections:
   - name: "posts"
     label: "Bài viết"
