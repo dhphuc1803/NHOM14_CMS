@@ -1,7 +1,6 @@
 backend:
-  name: git-gateway
-  branch: main
-
+  name: github
+  repo: your-username/dynamic-dragon-e3427b
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
@@ -11,8 +10,15 @@ collections:
     label: "Bài viết"
     folder: "content/posts"
     create: true
-    slug: "{{slug}}"
     fields:
       - { label: "Tiêu đề", name: "title", widget: "string" }
-      - { label: "Ngày", name: "date", widget: "datetime" }
+      - { label: "Ngày đăng", name: "date", widget: "datetime" }
+      - { label: "Nội dung", name: "body", widget: "markdown" }
+
+  - name: "pages"
+    label: "Trang"
+    folder: "content/pages"
+    create: true
+    fields:
+      - { label: "Tiêu đề", name: "title", widget: "string" }
       - { label: "Nội dung", name: "body", widget: "markdown" }
