@@ -1,5 +1,5 @@
 ---
-title: Hướng dẫn làm cà phê bằng Chemex cho người mới bắt đầu
+title: HƯỚNG DẪN LÀM CÀ PHÊ BẰNG CHEMEX CHO NGƯỜI MỚI BẮT ĐẦU
 date: 2025-05-22T17:29:55.588Z
 excerpt: Làm cà phê bằng Chemex có thể trông phức tạp, nhưng khi quen với quy
   trình, nó trở thành một nghi thức thư giãn đáng để thử mỗi ngày.
