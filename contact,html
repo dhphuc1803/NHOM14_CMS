@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liên Hệ</title>
+  <style>
+    form { max-width: 500px; margin: 0 auto; padding: 20px; }
+    label { display: block; margin: 10px 0; font-weight: bold; }
+    input, textarea { width: 100%; padding: 8px; margin-top: 5px; box-sizing: border-box; }
+    button { background: #007bff; color: white; padding: 10px 20px; border: none; cursor: pointer; margin-top: 10px; }
+    button:hover { background: #0056b3; }
+  </style>
+</head>
+<body>
+  <h1>Liên Hệ Với Chúng Tôi</h1>
+  <form name="contact" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="contact">
+    <p>
+      <label for="name">Tên: <input type="text" id="name" name="name" required></label>
+    </p>
+    <p>
+      <label for="email">Email: <input type="email" id="email" name="email" required></label>
+    </p>
+    <p>
+      <label for="message">Tin Nhắn: <textarea id="message" name="message" rows="5" required></textarea></label>
+    </p>
+    <p>
+      <button type="submit">Gửi</button>
+    </p>
+  </form>
+</body>
+</html>
