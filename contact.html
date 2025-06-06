@@ -15,7 +15,8 @@
 </head>
 <body>
     <h1>Liên hệ với mình</h1>
-    <form name="contact" method="POST" data-netlify="true" action="/thank-you.html">
+    <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact">
         <p><label for="name">Họ và tên: </label><input type="text" id="name" name="name" required></p>
         <p><label for="email">Email: </label><input type="email" id="email" name="email" required></p>
         <p><label for="message">Tin nhắn: </label><textarea id="message" name="message" required></textarea></p>
