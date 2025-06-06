@@ -42,3 +42,11 @@ collections:
       - label: "Nội dung"
         name: "body"
         widget: "markdown"
+  collections:
+    - name: "About"
+      label: "Chi tiết"
+      folder: "content/about"
+      create: true 
+      slug: "{{slug}}"
+          fields:
+            - {label: "Giới thiệu" , name: "title", widget: "string"}
